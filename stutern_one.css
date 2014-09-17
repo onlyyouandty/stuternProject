@@ -1,0 +1,16 @@
+nav{
+	background-color: #0ee6d0;
+}
+.logo{
+	background-image: url(../imgs/stutern_logo.png);
+	display: inline-block;
+	height: 220px;
+	width: 216px;
+}/*.
+#outterwrapper{
+	background-color: #0ee6d0;
+	display: inline-block;
+	position: relative;
+	width: 50px;
+	height: auto;
+}*/
