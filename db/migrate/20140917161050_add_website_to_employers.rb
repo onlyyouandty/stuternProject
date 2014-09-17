@@ -1,4 +1,4 @@
-class AddWebsiteToEmployers < ActiveRecord::Migration
+ class AddWebsiteToEmployers < ActiveRecord::Migration
   def change
     add_column :employers, :url, :string
   end
