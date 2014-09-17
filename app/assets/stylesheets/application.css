@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+	margin: 0 0 0 0;
+	color: #ff5f8c;
+}
+
+h1 {
+	font-family: 'Italianno', cursive;
+	font-size: 49px;
+	position: relative;
+	right: 500px;
+}
+
+h1 > span {
+	color: rgb(191,191,191);
+}
+
+p > span > b > a {
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(221,221,221);
+	text-decoration: none;
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 80px;
+	color: #ffbabf;
+}
+
+body > a {
+	color: #ffbabf;
+	letter-spacing: 20px;
+	position: relative;
+	top: 165px;
+	right: 500px;
+	z-index: 100;
+}
+
+nav > a {
+	position: relative;
+	bottom: 30px;
+	color: #ffbabf;
+	z-index: 10;
+}
+.bar {
+	background-color: #ff5f8c;
+	border: 48px solid #ff5f8c;
+	position: relative;
+	top: 40px;
+	min-height: 30px;
+}
