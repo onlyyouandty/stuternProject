@@ -1,16 +1,14 @@
 body{
-	background-image: url("../imgs/solitary.jpg");
+	background-image: url("http://i.imgur.com/KMBm7qy.jpg?1");
 	background-size: cover ;
 	text-align: center;
 }
 .logo{
-	background-image: url(../imgs/stutern_logo.png);
+	background-image: url("http://i.imgur.com/JRFVNct.png?1");
 	background-repeat: no-repeat;
 	display: inline-block;
 	height: 270px;
-	
 	width: 216px;
-
 }/*.
 #outterwrapper{
 	background-color: #0ee6d0;
